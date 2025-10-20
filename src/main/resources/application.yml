@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: backend-scaffold
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: INFO
+    com.example.scaffold: DEBUG
+
+server:
+  port: 8080
