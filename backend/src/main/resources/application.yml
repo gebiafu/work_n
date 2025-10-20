@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: app-backend
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+logging:
+  level:
+    root: INFO
+
+# Placeholders for common configuration. Environment-specific overrides go in
+# application-<profile>.yml files below.
